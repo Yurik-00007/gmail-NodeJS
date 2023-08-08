@@ -6,10 +6,7 @@ const bodyParser = require('body-parser')
 const app = express()
 const port = 3010
 
-app.use(cors({
-    origin: [`http://localhost:${port}/`, 'https://Yurik-00007.github.io']
-    //origin: '*'
-}))
+app.use(cors())
 
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({extended: false}))
