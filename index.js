@@ -7,7 +7,7 @@ const app = express()
 const port = 3010
 
 app.use(cors({
-    origin: [`http://localhost:${port}/`, 'https://vercel.com/yurik-00007/gmail-node-js/']
+    origin: [`http://localhost:${port}/`, 'https://Yurik-00007.github.io/partfoli-ii']
     //origin: '*'
 }))
 
