@@ -4,10 +4,10 @@ const cors = require('cors')
 const bodyParser = require('body-parser')
 
 const app = express()
-const port = 3010
+const port = 3000
 
 app.use(cors({
-    //origin: ['http://localhost:3000', '']
+    //origin: ['http://localhost:3000/', 'https://vercel.com/yurik-00007/gmail-node-js/']
     origin: '*'
 }))
 
