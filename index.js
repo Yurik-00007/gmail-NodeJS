@@ -8,7 +8,7 @@ const port = 3010
 
 /app.use(cors({
    //origin: [`http://localhost:${port}/`, 'https://Yurik-00007.github.io']
-    origin: '*',
+    origin: false,
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"]
 }))
